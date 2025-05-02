@@ -1,0 +1,54 @@
+.hero__bottom{
+    max-width: 400px;
+    margin-top: 100px;
+    margin-inline: auto;
+    position: relative;
+    
+
+    &-blockquote, &-cite{
+        text-align: center;
+        font-size: 24px;
+        color: var(--color-light);
+        border: var(--border);
+        background-color: var(--color-black);
+
+        @include mobile{
+            @include fluid_text(20,16);
+        }
+    }
+
+    &-blockquote{
+        position: relative;
+        padding: 32px;
+
+        @include mobile{
+            padding: 24px;
+        }
+
+        &::after, &::before{
+            content: '';
+            position: absolute;
+            width: 42px;
+            height: 28px;
+            z-index: 2;
+        }
+
+        &::after{
+            bottom: -16px;
+            right: 16px;
+            background-image: url('./../../images/quotes.svg');
+        }
+
+        &::before{
+            top: -15px;
+            left: 16px;
+            background-image: url('./../../images/quotesUp-1.svg');
+        }
+    }
+
+    &-cite{
+        padding: 16px;
+        position: absolute;
+        right: 0;
+    }
+}

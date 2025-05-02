@@ -1,0 +1,48 @@
+.hero{
+
+    &__top{
+        display: flex;
+        justify-content: space-between;
+        column-gap: 70px;
+        align-items: center;
+
+        @include mobile{
+            flex-direction: column;
+            column-gap: unset;
+            row-gap: 40px;
+            text-align: center;
+        }
+    }
+
+    &__info{
+        max-width: 500px;
+    }
+
+    &__title{
+        margin-bottom: 32px;
+
+        @include mobile-s{
+            margin-bottom: 24px;
+        }
+    }
+
+    &__span{
+        color: var(--color-accent);
+    }
+
+    &__subtitle{
+        margin-bottom: 24px;
+        line-height: 25px;
+    }
+
+    &__image{
+
+        &-descr{
+            background-color: var(--color-gray-alt);
+            text-align: center;
+            padding-block: 7px;
+            border: var(--border);
+        }
+        
+    }
+}

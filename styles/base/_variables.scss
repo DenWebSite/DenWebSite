@@ -1,0 +1,37 @@
+:root{
+    --color-dark: #1E1E1E;
+    --color-black: #181819;
+    // --color-dark-alt: #292A32;
+    --color-light: #FFFFFF;
+    --color-accent: #78DDB0;
+    --color-accent-alt: rgba(120, 221, 176, .4);
+    --color-gray: #ABB2BF;
+    --color-gray-alt: #282C33;
+
+
+    --border: 1px solid var(--color-gray);
+    // --border-radius: 14px;
+    // --border-radius-small: 7px;
+    // --border-radius-large: 45px;
+
+    // --shadow: 0 5px 0 0 var(--color-dark);
+
+    --font-famuly-base: "Fira Code", sans-serif;
+
+    --container-width: 1025px;
+    --container-padding-x: 10px;
+    
+    --section-padding-y: 70px;
+
+    --input-height: 59px;
+    --button-height: 37px;
+    --transition-duration: 0.2s;
+
+    @include desktop{
+        --section-padding-y: 40px;
+    }
+
+    @include mobile{
+        --section-padding-y: 30px;
+    }
+}

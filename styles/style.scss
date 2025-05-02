@@ -1,0 +1,18 @@
+@import "./base/normalize";
+@import "./base/fonts";
+@import "./base/mixins";
+@import "./base/media";
+@import "./base/variables";
+@import "./base/utils";
+@import "./base/globals";
+
+@import "./blocks/section";
+@import "./blocks/button";
+@import "./blocks/grid";
+@import "./blocks/burder-menu";
+@import "./blocks/header";
+@import "./blocks/hero";
+@import "./blocks/hero-bottom";
+@import "./blocks/card";
+@import "./blocks/projects";
+@import "./blocks/skills";
