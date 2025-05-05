@@ -1,0 +1,16 @@
+.tg {
+    position: relative;
+}
+
+.tg-show {
+    padding: 30px;
+    margin-top: 20px;
+    margin-inline: auto;
+    background-color: var(--color-gray-alt);
+    border-radius: 10px;
+
+    img {
+        border-radius: 10px;
+        margin-inline: auto;
+    }
+}

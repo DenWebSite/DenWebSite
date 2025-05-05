@@ -1,0 +1,67 @@
+.hero {
+    padding-top: 60px;
+
+    &__top {
+       position: relative;
+
+
+        display: flex;
+        justify-content: space-between;
+        column-gap: 70px;
+        align-items: center;
+
+        @include mobile {
+            flex-direction: column;
+            column-gap: unset;
+            row-gap: 40px;
+            text-align: center;
+        }
+
+
+        &::after {
+            content: '';
+            position: absolute;
+            background-image: url(./../../images/dots.png);
+            width: 50px;
+            height: 50px;
+            left: 490px;
+            top: 44px;
+
+            @include mobile{
+                display: none;
+            }
+        }
+    }
+
+    &__info {
+        max-width: 500px;
+    }
+
+    &__title {
+        margin-bottom: 32px;
+
+        @include mobile-s {
+            margin-bottom: 24px;
+        }
+    }
+
+    &__span {
+        color: var(--color-accent);
+    }
+
+    &__subtitle {
+        margin-bottom: 24px;
+        line-height: 25px;
+    }
+
+    &__image {
+
+        &-descr {
+            background-color: var(--color-gray-alt);
+            text-align: center;
+            padding-block: 7px;
+            border: var(--border);
+        }
+
+    }
+}
