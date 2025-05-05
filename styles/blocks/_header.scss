@@ -4,11 +4,13 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding-top: 32px;
-        
-        @include desktop{
+        padding-block: 20px;
 
-        }
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 99;
     }
 
     &__logo {
@@ -31,9 +33,12 @@
         column-gap: 32px;
 
         &-item {
+            position: relative;
             span {
                 color: var(--color-accent-alt);
             }
+
+            @include underline;
         }
 
         &-item.active {
@@ -56,10 +61,20 @@
     }
 }
 
-.switch{
+.switch {
     font-weight: 600;
 
-    @include tablet{
+    @include tablet {
         order: -1;
     }
+}
+
+.logo {
+
+    p {
+        @include hover {
+            color: var(--color-accent);
+        }
+    }
+
 }

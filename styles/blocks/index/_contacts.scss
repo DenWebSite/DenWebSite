@@ -1,0 +1,54 @@
+.contacts {
+
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 40px;
+
+        @include mobile{
+            flex-direction: column;
+            align-items: flex-start;
+            padding-block: 40px;
+        }
+
+        @include mobile-s{
+            padding-block: 25px;
+        }
+
+        &-text {
+            max-width: 400px;
+            margin-block: 20px;
+        }
+
+        &-email {
+            border: var(--border);
+            padding: 16px;
+            padding-left: 48px;
+            position: relative;
+
+            &:before {
+                content: '';
+                position: absolute;
+                left: 16px;
+                top: 17px;
+                background-image: url('./../../images/mailti.svg');
+                width: 23px;
+                height: 17px;
+
+            }
+        }
+
+        &-telegram {
+            max-width: 220px;
+            margin-top: 18px;
+            border: var(--border);
+            border-color: var(--color-accent);
+            padding: 16px;
+            display: flex;
+            align-items: center;
+            column-gap: 10px;
+            cursor: pointer;
+        }
+    }
+}

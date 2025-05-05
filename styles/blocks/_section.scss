@@ -6,27 +6,27 @@
         overflow-x: hidden;
     }
 
-    &__header{
-        display: flex;
-        align-items: center;
-        column-gap: 40px;
+    // &__header{
+    //     display: flex;
+    //     align-items: center;
+    //     column-gap: 40px;
 
-        &:not(:last-child){
-            margin-bottom: 80px;
+    //     &:not(:last-child){
+    //         margin-bottom: 80px;
 
-            @include mobile{
-                margin-bottom: 40px;
-            }
-        }
+    //         @include mobile{
+    //             margin-bottom: 40px;
+    //         }
+    //     }
 
-        @include mobile{
-            flex-direction: column;
-            row-gap: 30px;
-            text-align: center;
-        }
-    }
+    //     @include mobile{
+    //         flex-direction: column;
+    //         row-gap: 30px;
+    //         text-align: center;
+    //     }
+    // }
 
-    &__descr{
-        max-width: 580px;
-    }
+    // &__descr{
+    //     max-width: 580px;
+    // }
 }

@@ -1,0 +1,54 @@
+.about{
+    
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 60px;
+
+        @include mobile{
+            flex-direction: column;
+            align-items: start;
+            row-gap: 30px;
+        }
+    }
+
+    &__header{
+        max-width: 550px;
+
+        @include mobile-s{
+            margin-top: 45px;
+        }
+    }
+
+    &__descr{
+        padding-block: 40px;
+
+        @include mobile-s{
+            padding-block: 25px;
+        }
+    }
+
+    &__image{
+        border-bottom: 2px solid var(--color-accent);
+        position: relative;
+        flex-shrink: 0;
+
+        &::after, &::before{
+            content: '';
+            position: absolute;
+            background-image: url('./../../images/dots.png');
+            width: 50px;
+            height: 50px;
+        }
+
+        &::after{
+            bottom: -12px;
+            right: -30px;
+        }
+
+        @include mobile{
+            margin-inline: auto;
+        }
+    }
+}
