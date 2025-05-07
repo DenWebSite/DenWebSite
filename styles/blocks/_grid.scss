@@ -3,11 +3,12 @@
 
     display: grid;
     grid-template-columns: repeat((var(--gridColumns)), 1fr);
+    justify-items: center;
 
     gap: 40px;
 
     @include mobile{
-        gap: 30px;
+        gap: 20px;
     }
 
     @for $i from 2 through 12 {
@@ -26,6 +27,15 @@
         @include desktop{
             --gridColumns: 3;
         }
+
+        @include mobile{
+            --gridColumns: 2;
+            justify-items: center;
+        }
+    }
+
+    &--4{
+        --gridColumns: 4;
 
         @include mobile{
             --gridColumns: 2;

@@ -15,9 +15,9 @@
         background-color: var(--color-accent);
     }
 
-    @include mobile-s{
+    @include mobile-s {
         padding-inline: 10px;
-        font-size: 14px;
+        font-size: 12px;
 
         --button-height: 30px;
     }
@@ -25,8 +25,6 @@
     &--accent {
         border-color: var(--color-accent);
 
-        @include mobile{
-            
-        }
+        @include mobile {}
     }
 }
