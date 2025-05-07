@@ -1,0 +1,12 @@
+.case{
+    margin-top: 60px;
+
+    &__title{
+        margin-bottom: 40px;
+
+        span{
+            color: var(--color-accent);
+            margin-right: 5px;
+        }
+    }
+}

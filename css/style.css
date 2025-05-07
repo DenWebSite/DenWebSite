@@ -346,6 +346,13 @@ h4, .h4 {
     background-color: var(--color-accent);
   }
 }
+@media (max-width: 480px) {
+  .button {
+    padding-inline: 10px;
+    font-size: 14px;
+    --button-height: 30px;
+  }
+}
 .button--accent {
   border-color: var(--color-accent);
 }
@@ -486,19 +493,20 @@ h4, .h4 {
 .grid--12 {
   --gridColumns: 12;
 }
-@media (max-width: 1023px) {
+@media (max-width: 767px) {
   .grid--2 {
-    --gridColumns: 1;
+    --gridColumns: 2;
   }
 }
 @media (max-width: 1280px) {
   .grid--3 {
-    --gridColumns: 2;
+    --gridColumns: 3;
   }
 }
 @media (max-width: 767px) {
   .grid--3 {
-    --gridColumns: 1;
+    --gridColumns: 2;
+    justify-items: center;
   }
 }
 
@@ -798,18 +806,7 @@ h4, .h4 {
   width: 100%;
 }
 .projects__list {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  -moz-column-gap: 12px;
-       column-gap: 12px;
-}
-@media (max-width: 1023px) {
-  .projects__list {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-  }
+  gap: 20px;
 }
 .projects__list-item {
   max-width: 330px;
@@ -821,6 +818,11 @@ h4, .h4 {
     max-width: 270px;
   }
 }
+@media (max-width: 480px) {
+  .projects__list-item {
+    max-width: 200px;
+  }
+}
 .projects__list-img {
   width: 100%;
   max-height: 200px;
@@ -830,11 +832,20 @@ h4, .h4 {
   padding-block: 10px;
   border-bottom: var(--border);
 }
-.projects__list-name {
+@media (max-width: 480px) {
+  .projects__list-stek {
+    font-size: 12px;
+    padding-block: 6px;
+  }
+}
+.projects__list-name, .projects__list-descr {
   margin-block: 16px;
 }
-.projects__list-descr {
-  margin-bottom: 16px;
+@media (max-width: 480px) {
+  .projects__list-name, .projects__list-descr {
+    margin-block: 8px;
+    font-size: 14px;
+  }
 }
 .projects__list-link {
   margin-bottom: 16px;
@@ -1073,4 +1084,15 @@ h4, .h4 {
 .tg-show img {
   border-radius: 10px;
   margin-inline: auto;
+}
+
+.case {
+  margin-top: 60px;
+}
+.case__title {
+  margin-bottom: 40px;
+}
+.case__title span {
+  color: var(--color-accent);
+  margin-right: 5px;
 }/*# sourceMappingURL=style.css.map */
