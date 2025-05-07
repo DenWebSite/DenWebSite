@@ -349,7 +349,7 @@ h4, .h4 {
 @media (max-width: 480px) {
   .button {
     padding-inline: 10px;
-    font-size: 14px;
+    font-size: 12px;
     --button-height: 30px;
   }
 }
@@ -453,11 +453,12 @@ h4, .h4 {
   --gridColumns: 1;
   display: grid;
   grid-template-columns: repeat(var(--gridColumns), 1fr);
+  justify-items: center;
   gap: 40px;
 }
 @media (max-width: 767px) {
   .grid {
-    gap: 30px;
+    gap: 20px;
   }
 }
 .grid--2 {
@@ -809,6 +810,10 @@ h4, .h4 {
   gap: 20px;
 }
 .projects__list-item {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
   max-width: 330px;
   border: var(--border);
   text-align: center;
