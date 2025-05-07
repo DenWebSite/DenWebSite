@@ -17,18 +17,19 @@
     }
 
     &--2{
-        @include tablet{
-            --gridColumns: 1;
+        @include mobile{
+            --gridColumns: 2;
         }
     }
 
     &--3{
         @include desktop{
-            --gridColumns: 2;
+            --gridColumns: 3;
         }
 
         @include mobile{
-            --gridColumns: 1;
+            --gridColumns: 2;
+            justify-items: center;
         }
     }
 }
