@@ -33,4 +33,13 @@
             justify-items: center;
         }
     }
+
+    &--4{
+        --gridColumns: 4;
+
+        @include mobile{
+            --gridColumns: 2;
+            justify-items: center;
+        }
+    }
 }

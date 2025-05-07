@@ -24,19 +24,11 @@
         &-email {
             border: var(--border);
             padding: 16px;
-            padding-left: 48px;
-            position: relative;
 
-            &:before {
-                content: '';
-                position: absolute;
-                left: 16px;
-                top: 17px;
-                background-image: url('./../../images/mailti.svg');
-                width: 23px;
-                height: 17px;
-
-            }
+            display: flex;
+            align-items: center;
+            column-gap: 10px;
+            padding-inline: auto;
         }
 
         &-telegram {

@@ -510,6 +510,15 @@ h4, .h4 {
     justify-items: center;
   }
 }
+.grid--4 {
+  --gridColumns: 4;
+}
+@media (max-width: 767px) {
+  .grid--4 {
+    --gridColumns: 2;
+    justify-items: center;
+  }
+}
 
 .footer {
   border-top: var(--border);
@@ -807,7 +816,7 @@ h4, .h4 {
   width: 100%;
 }
 .projects__list {
-  gap: 20px;
+  gap: 18px 14px;
 }
 .projects__list-item {
   display: flex;
@@ -1050,17 +1059,11 @@ h4, .h4 {
 .contacts__list-email {
   border: var(--border);
   padding: 16px;
-  padding-left: 48px;
-  position: relative;
-}
-.contacts__list-email:before {
-  content: "";
-  position: absolute;
-  left: 16px;
-  top: 17px;
-  background-image: url("./../../images/mailti.svg");
-  width: 23px;
-  height: 17px;
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  padding-inline: auto;
 }
 .contacts__list-telegram {
   max-width: 220px;
@@ -1100,4 +1103,85 @@ h4, .h4 {
 .case__title span {
   color: var(--color-accent);
   margin-right: 5px;
+}
+
+.tabs__title {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  color: var(--color-accent);
+}
+
+.tabs__btn {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  -moz-column-gap: 60px;
+       column-gap: 60px;
+  row-gap: 20px;
+  padding-inline: 30px;
+  margin-inline: auto;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+@media (max-width: 767px) {
+  .tabs__btn {
+    font-size: 18px;
+  }
+}
+
+.tabs__btn-item {
+  position: relative;
+  font-weight: 500;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+}
+.tabs__btn-item:after {
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  bottom: -5px;
+  background: var(--color-accent);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.tabs__btn-item:hover:after {
+  left: 0;
+  width: 100%;
+}
+@media (hover: hover) {
+  .tabs__btn-item:hover {
+    color: var(--color-light);
+  }
+}
+@media (hover: none) {
+  .tabs__btn-item:active {
+    color: var(--color-light);
+  }
+}
+.tabs__btn-item span {
+  color: var(--color-accent) !important;
+  margin-right: 5px;
+  font-size: 22px;
+}
+
+.tabs__btn-item--active {
+  color: var(--color-accent) !important;
+}
+
+.tabs__content-item {
+  display: none;
+}
+
+.tabs__content-item.tabs__content-item--active {
+  display: grid;
 }/*# sourceMappingURL=style.css.map */
