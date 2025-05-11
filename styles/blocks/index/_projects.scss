@@ -23,9 +23,6 @@
 
 
     &__list {
-        // display: flex;
-        // justify-content: space-between;
-        // align-items: center;
         gap: 18px 14px;
 
         &-item {
@@ -47,9 +44,19 @@
         }
 
         &-img {
-            width: 100%;
-            max-height: 200px;
-            height: auto;
+            height: 180px;
+
+            @include tablet{
+                height: 150px;
+            }
+
+            @include mobile{
+                height: 130px;
+            }
+
+            @include mobile-s{
+                height: 110px;
+            }
         }
 
         &-stek {
@@ -66,10 +73,22 @@
         &-descr {
             margin-block: 16px;
 
+            @include mobile{
+                
+            }
+
             @include mobile-s {
                 margin-block: 8px;
                 font-size: 14px;
             }
+        }
+
+        &-name{
+            margin-bottom: 0;
+        }
+
+        &-descr{
+            padding-inline: 10px;
         }
 
         &-link {

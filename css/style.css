@@ -274,6 +274,10 @@ svg * {
   color: var(--color-accent);
 }
 
+html, body {
+  height: 100%;
+}
+
 body {
   font-size: clamp(16px, 18 / 1440 * 100vw, 18px);
   font-family: var(--font-famuly-base);
@@ -838,9 +842,22 @@ h4, .h4 {
   }
 }
 .projects__list-img {
-  width: 100%;
-  max-height: 200px;
-  height: auto;
+  height: 180px;
+}
+@media (max-width: 1023px) {
+  .projects__list-img {
+    height: 150px;
+  }
+}
+@media (max-width: 767px) {
+  .projects__list-img {
+    height: 130px;
+  }
+}
+@media (max-width: 480px) {
+  .projects__list-img {
+    height: 110px;
+  }
 }
 .projects__list-stek {
   padding-block: 10px;
@@ -860,6 +877,12 @@ h4, .h4 {
     margin-block: 8px;
     font-size: 14px;
   }
+}
+.projects__list-name {
+  margin-bottom: 0;
+}
+.projects__list-descr {
+  padding-inline: 10px;
 }
 .projects__list-link {
   margin-bottom: 16px;
@@ -1108,7 +1131,7 @@ h4, .h4 {
 .tabs__title {
   margin-top: 60px;
   margin-bottom: 30px;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
   text-align: center;
   color: var(--color-accent);
@@ -1118,17 +1141,17 @@ h4, .h4 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  -moz-column-gap: 60px;
-       column-gap: 60px;
-  row-gap: 20px;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+  row-gap: 5px;
   padding-inline: 30px;
   margin-inline: auto;
   margin-bottom: 30px;
-  font-size: 20px;
+  font-size: 18px;
 }
 @media (max-width: 767px) {
   .tabs__btn {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
