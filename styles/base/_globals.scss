@@ -1,3 +1,7 @@
+html, body{
+    height: 100%; // для футера снизу. .wrapper и .main в _utils.scss
+}
+
 body{
     @include fluid_text(18, 16);
 
