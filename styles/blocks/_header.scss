@@ -22,15 +22,6 @@
         }
     }
 
-    // &__link-github{
-    //     display: flex;
-    //     align-items: center;
-
-    //     p{
-    //         margin-bottom: 0;
-    //     }
-    // }
-
     &__links {
         display: flex;
         column-gap: 32px;
@@ -43,6 +34,7 @@
 
         &-item {
             position: relative;
+
             span {
                 color: var(--color-accent-alt);
             }

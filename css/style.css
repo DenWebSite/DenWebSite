@@ -234,6 +234,10 @@ svg * {
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
   margin-inline: auto;
@@ -727,7 +731,7 @@ h4, .h4 {
 .hero__top::after {
   content: "";
   position: absolute;
-  background-image: url(./../../images/dots.png);
+  background-image: url("./../../../DenWebSite/images/dots.png");
   width: 50px;
   height: 50px;
   left: 490px;
@@ -792,20 +796,23 @@ h4, .h4 {
 }
 .hero__bottom-blockquote::after, .hero__bottom-blockquote::before {
   content: "";
+  display: block;
   position: absolute;
   width: 42px;
   height: 28px;
-  z-index: 2;
+  z-index: 10;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .hero__bottom-blockquote::after {
   bottom: -16px;
   right: 16px;
-  background-image: url("../../../images/quotes.svg");
+  background-image: url("./../../../../DenWebSite/images/qdown.svg");
 }
 .hero__bottom-blockquote::before {
   top: -15px;
   left: 16px;
-  background-image: url("../../../images/quotesUp-1.svg");
+  background-image: url("./../../../../DenWebSite/images/qup.svg");
 }
 .hero__bottom-cite {
   padding: 16px;
