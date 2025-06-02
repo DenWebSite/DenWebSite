@@ -1,19 +1,23 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .container {
     max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
     margin-inline: auto;
-    
-    @include tablet{
+
+    @include tablet {
         padding-inline: var(--container-padding-x);
     }
 }
 
-.wrapper{
+.wrapper {
     min-height: 100%;
     display: flex;
     flex-direction: column;
 }
 
-.main{
+.main {
     flex-grow: 1;
 }
 
@@ -21,18 +25,18 @@
     @include visually-hidden
 }
 
-.hidden-mobile{
-    @include mobile{
+.hidden-mobile {
+    @include mobile {
         display: none !important;
     }
 }
 
-.visible-mobile{
-    @include mobile-above{
+.visible-mobile {
+    @include mobile-above {
         display: none !important;
     }
 }
 
-.green-dot{
+.green-dot {
     color: var(--color-accent);
 }

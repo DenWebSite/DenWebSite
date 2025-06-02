@@ -27,22 +27,25 @@
 
         &::after, &::before{
             content: '';
+            display: block;
             position: absolute;
             width: 42px;
             height: 28px;
-            z-index: 2;
+            z-index: 10;
+            background-size: cover;
+            background-repeat: no-repeat;
         }
 
         &::after{
             bottom: -16px;
             right: 16px;
-            background-image: url('../../../images/quotes.svg');
+            background-image: url("./../../../../DenWebSite/images/qdown.svg");
         }
 
         &::before{
             top: -15px;
             left: 16px;
-            background-image: url('../../../images/quotesUp-1.svg');
+            background-image: url("./../../../../DenWebSite/images/qup.svg");;
         }
     }
 
