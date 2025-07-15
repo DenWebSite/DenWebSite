@@ -24,7 +24,5 @@
 
     &--accent {
         border-color: var(--color-accent);
-
-        @include mobile {}
     }
 }

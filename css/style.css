@@ -374,6 +374,7 @@ h4, .h4 {
 .button--accent {
   border-color: var(--color-accent);
 }
+
 .header__inner {
   display: flex;
   justify-content: space-between;
@@ -679,12 +680,12 @@ h4, .h4 {
   position: absolute;
   background-color: transparent;
   background-color: var(--color-dark);
-  padding: 20px;
-  border-radius: 10px;
+  padding: 20px 40px;
+  border-radius: 40px;
 }
 @media (max-width: 767px) {
   #popup {
-    padding: 14px;
+    padding: 14px 30px;
   }
 }
 
@@ -693,13 +694,20 @@ h4, .h4 {
   margin-bottom: 20px;
 }
 .popup__image {
-  width: 200px;
+  width: 300px;
   max-width: 100%;
+  min-width: 200px;
   height: auto;
   margin-bottom: 10px;
+  border-radius: 30px;
 }
 .popup__btn {
   margin-top: 30px;
+}
+@media (max-width: 767px) {
+  .popup__btn {
+    margin-top: 14px;
+  }
 }
 @media (max-width: 480px) {
   .popup__btn {
