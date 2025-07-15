@@ -16,30 +16,36 @@
     position: absolute;
     background-color: transparent;
     background-color: var(--color-dark);
-    padding: 20px;
-    border-radius: 10px;
+    padding: 20px 40px;
+    border-radius: 40px;
 
-    @include mobile{
-        padding: 14px;
+    @include mobile {
+        padding: 14px 30px;
     }
 }
 
 .popup {
 
-    &__title{
+    &__title {
         margin-top: 0;
         margin-bottom: 20px;
     }
 
-    &__image{
-        width: 200px;
+    &__image {
+        width: 300px;
         max-width: 100%;
+        min-width: 200px;
         height: auto;
         margin-bottom: 10px;
+        border-radius: 30px;
     }
 
     &__btn {
         margin-top: 30px;
+
+        @include mobile{
+            margin-top: 14px;
+        }
 
         @include mobile-s {
             padding-inline: 25px;
