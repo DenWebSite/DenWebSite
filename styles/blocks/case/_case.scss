@@ -10,3 +10,17 @@
         }
     }
 }
+
+.projects-pet{
+    margin: 120px 0;
+
+    @include mobile-s{
+        margin: 80px 0;
+    }
+
+    &__title{
+        color: var(--color-accent);
+        margin-bottom: 30px;
+        text-align: center;
+    }
+}

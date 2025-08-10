@@ -266,8 +266,7 @@ html {
   border: 0 !important;
   padding: 0 !important;
   white-space: nowrap !important;
-  -webkit-clip-path: inset(100%) !important;
-          clip-path: inset(100%) !important;
+  clip-path: inset(100%) !important;
   clip: rect(0 0 0 0) !important;
   overflow: hidden !important;
 }
@@ -1185,13 +1184,25 @@ h4, .h4 {
   margin-right: 5px;
 }
 
+.projects-pet {
+  margin: 120px 0;
+}
+@media (max-width: 480px) {
+  .projects-pet {
+    margin: 80px 0;
+  }
+}
+.projects-pet__title {
+  color: var(--color-accent);
+  margin-bottom: 30px;
+  text-align: center;
+}
+
 .tabs__title {
-  margin-top: 60px;
   margin-bottom: 30px;
   font-size: 20px;
   font-weight: 500;
   text-align: center;
-  color: var(--color-accent);
 }
 
 .tabs__btn {
