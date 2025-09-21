@@ -212,7 +212,7 @@ svg * {
   --color-light: #FFFFFF;
   --color-accent: #78DDB0;
   --color-accent-alt: rgba(120, 221, 176, .4);
-  --color-gray: #ABB2BF;
+  --color-gray: #cfcfcf;
   --color-gray-alt: #282C33;
   --border: 1px solid var(--color-gray);
   --font-famuly-base: "Fira Code", sans-serif;
@@ -236,6 +236,7 @@ svg * {
 
 html {
   scroll-behavior: smooth;
+  scroll-padding: 70px;
 }
 
 .container {
@@ -376,6 +377,7 @@ h4, .h4 {
 }
 
 .header__inner {
+  padding: 0 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -385,6 +387,11 @@ h4, .h4 {
   right: 0;
   left: 0;
   z-index: 99;
+}
+@media (max-width: 767px) {
+  .header__inner {
+    padding-block: 10px;
+  }
 }
 .header__logo {
   display: flex;
@@ -592,8 +599,8 @@ h4, .h4 {
 @media (max-width: 1023px) {
   .menu-btn {
     display: flex;
-    height: 40px;
-    width: 50px;
+    height: 24px;
+    width: 30px;
     background-color: transparent;
     border: none;
     cursor: pointer;
@@ -616,13 +623,13 @@ h4, .h4 {
     top: 0;
   }
   .btn-line:nth-child(2) {
-    top: 20px;
+    top: 12px;
   }
   .btn-line:nth-child(3) {
-    top: 20px;
+    top: 12px;
   }
   .btn-line:nth-child(4) {
-    top: 40px;
+    top: 24px;
   }
   .menu-open .btn-line:nth-child(1) {
     transform: scaleX(0);
@@ -1019,6 +1026,7 @@ h4, .h4 {
 }
 .skills__list-descr {
   padding: 10px;
+  line-height: 1.4;
 }
 .skills__decor {
   margin-top: 50px;

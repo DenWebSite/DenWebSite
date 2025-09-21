@@ -1,6 +1,7 @@
 .header {
 
     &__inner {
+        padding: 0 10px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -11,6 +12,10 @@
         right: 0;
         left: 0;
         z-index: 99;
+
+        @include mobile{
+            padding-block: 10px;
+        }
     }
 
     &__logo {

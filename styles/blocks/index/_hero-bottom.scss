@@ -36,17 +36,17 @@
             background-repeat: no-repeat;
         }
 
-        &::after{
-            bottom: -16px;
-            right: 16px;
-            background-image: url("./../../../../DenWebSite/images/qdown.svg");
-        }
+        // &::after{
+        //     bottom: -16px;
+        //     right: 16px;
+        //     background-image: url("./../../images/qdown.svg");
+        // }
 
-        &::before{
-            top: -15px;
-            left: 16px;
-            background-image: url("./../../../../DenWebSite/images/qup.svg");;
-        }
+        // &::before{
+        //     top: -15px;
+        //     left: 16px;
+        //     background-image: url("./../../../../DenWebSite/images/qup.svg");;
+        // }
     }
 
     &-cite{
