@@ -1,12 +1,12 @@
 # Привет, меня зовут Денис!
 
 ## Обо мне
-Студент 4 курса КФУ им. В.И.Вернадского на направлении "Программная инженерия". Сфокусирован на Frontend разработки на Vue3 + Nuxt4 и Angular. А ещё начинаю разбираться в Backend разработке на Node.js + Express.js.
+Студент 4 курса КФУ им. В.И.Вернадского на направлении "Программная инженерия". Сфокусирован на Frontend разработки на **Vue3** + **Nuxt4** и **Angular**. А ещё начинаю разбираться в Backend разработке на **Node.js** + **Express.js**.
 Сейчас нахожу себя в поисках IT коллаборации, где мог бы показать свои навыки.
 
 ## 🌐 Socials:
 
-# 💻 Tech Stack:
+#№ 💻 Tech Stack:
 
 ### Languages
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)  ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) 
@@ -25,3 +25,8 @@
 
 ### Content Manage System
 ![Directus](https://img.shields.io/badge/directus-%2364f.svg?style=for-the-badge&logo=directus&logoColor=white) 
+
+## Projects
+К сожалению, я не могу показать вам репозитории моих проектов, так как это были коммерческие заказные решения, но я могу **рассказать** вам о них!
+
+
