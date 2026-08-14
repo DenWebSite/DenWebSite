@@ -39,6 +39,8 @@
 ### Content Manage System
 ![Directus](https://img.shields.io/badge/directus-%2364f.svg?style=for-the-badge&logo=directus&logoColor=white) 
 
+***
+
 ## Projects
 К сожалению, я не могу показать вам репозитории моих проектов, так как это были коммерческие заказные решения, но я могу **рассказать** вам о них!
 
