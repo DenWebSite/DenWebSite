@@ -9,8 +9,10 @@
 
 ## 🌐 Socials:
 ![Gmail](https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white) risskon111@gmail.com
-![Telegram]((https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white)) @dsedulya
-![VK]((https://img.shields.io/badge/VK-0077FF?logo=vk&logoColor=white)) https://vk.com/dsedulya
+
+![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white) @dsedulya
+
+![VK](https://img.shields.io/badge/VK-0077FF?logo=vk&logoColor=white) https://vk.com/dsedulya
 
 #№ 💻 Tech Stack:
 
