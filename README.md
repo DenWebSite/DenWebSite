@@ -8,6 +8,9 @@
 Сейчас являюсь Frontend разработчиком в студенческой команде "Хамелеон", которая посвятила себя созданию веб-сайтов разных направлений.
 
 ## 🌐 Socials:
+![Gmail]([https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E](https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white)) risskon111@gmail.com
+![Telegram]([https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E](https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white)) @dsedulya
+![VK]([https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E](https://img.shields.io/badge/VK-0077FF?logo=vk&logoColor=white))
 
 #№ 💻 Tech Stack:
 
