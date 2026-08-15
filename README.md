@@ -9,7 +9,7 @@
 
 ***
 
-## (https://api.iconify.design/heroicons/command-line.svg?color=%23000000&width=22&height=22) Socials:
+## []([https://api.iconify.design/heroicons/command-line.svg?color=%23000000&width=22&height=22](https://api.iconify.design/heroicons/command-line.svg?color=%23ffffff&width=22&height=22)) Socials:
 <div style="display: flex; align-items: center; gap: 8px;">
   <img src="https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white" alt="Gmail" />
   <a href="mailto:risskon111@gmail.com">risskon111@gmail.com</a>
