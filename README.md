@@ -10,7 +10,10 @@
 ***
 
 ## 🌐 Socials:
-![Gmail](https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white) risskon111@gmail.com
+<div style="display: flex; align-items: center; gap: 8px;">
+  <img src="https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white" alt="Gmail" />
+  <a href="mailto:risskon111@gmail.com">risskon111@gmail.com</a>
+</div>
 
 ![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white) @dsedulya
 
