@@ -9,7 +9,7 @@
 
 ***
 
-## []([https://api.iconify.design/heroicons/command-line.svg?color=%23000000&width=22&height=22](https://api.iconify.design/heroicons/command-line.svg?color=%23ffffff&width=22&height=22)) Socials:
+## Socials:
 <div style="display: flex; align-items: center; gap: 8px;">
   <img src="https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white" alt="Gmail" />
   <a href="mailto:risskon111@gmail.com">risskon111@gmail.com</a>
@@ -21,7 +21,7 @@
 
 ***
 
-## 💻 Tech Stack:
+## Tech Stack:
 
 ### Languages
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?logo=SQL&logoColor=white&style=for-the-badge)
