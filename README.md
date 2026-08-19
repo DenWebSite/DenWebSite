@@ -52,6 +52,12 @@
 К сожалению, я не могу показать вам репозитории моих проектов, так как это были коммерческие решения, но я могу **рассказать** вам о них!
 
 ### 1. Отель ArtHouse 
+Отель Art-house обратился к нам с задачей: обновить сайт, который перестал конвертировать посетителей в гостей. Мы провели полный редизайн, выстроили новую структуру и интегрировали систему бронирования TravelLine. Результат — современный сайт, который продаёт номера без звонков и переписок.
+
+####Techologies
+![Vue.js](https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) ![Nuxt JS](https://img.shields.io/badge/Nuxt-002E3B?style=for-the-badge&logo=nuxt.js&logoColor=#00DC82)  ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+
+####Key Achievements:
 ***
 
 ### 2. Мой личный сайт
