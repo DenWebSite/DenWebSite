@@ -53,7 +53,7 @@
 ## Projects
 К сожалению, я не могу показать вам репозитории моих проектов, так как это были коммерческие решения, но я могу **рассказать** вам о них!
 
-### 1. Отель ArtHouse 
+### 1. Отель ArtHouse - arthouse-alushta.ru
 Отель Art-house обратился к нам с задачей: обновить сайт, который перестал конвертировать посетителей в гостей. Мы провели полный редизайн, выстроили новую структуру и интегрировали систему бронирования TravelLine. Результат — современный сайт, который продаёт номера без звонков и переписок.
 
 #### Techologies
@@ -73,7 +73,11 @@
 
 ***
 
-### 3. Stimul-RK
+### 3. Stimul-RK - stimul-rk.ru
+
+#### Techologies
+
+![Vue.js](https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 
 
 ***
