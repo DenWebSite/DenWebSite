@@ -71,12 +71,7 @@
 
 ***
 
-### 2. Мой личный сайт
-
-
-***
-
-### 3. Stimul-RK - stimul-rk.ru
+### 2. Stimul-RK - stimul-rk.ru
 
 Сайт визитка для крымского разработчика hardware с демонстрацией его проектов, опыта работа и услуг. Каждому проекту посвящена отдельная страница с галереей и подробным описанием, тоже самое для каждой услуги. Клиент может отправить заявку для обратной связи через специальную форму.
 
@@ -91,4 +86,15 @@
 * Уменьшение скорости загрузки страницы на 20%
 ***
 
+### 3. Movie Watchlist API
+REST API для управления списком просмотра фильмов. Пользователи могут регистрироваться, добавлять фильмы в личный список просмотра с возможностью отслеживать статус, ставить оценки и оставлять заметки
 
+#### Techologies
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?logo=SQL&logoColor=white&style=for-the-badge) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+
+
+#### Key Achievements:
+* Полный цикл разработки фронтенда
+* Опыт работы с Vue-Router и Swiper
+* Контроль версий с помощью GitLab
+* Уменьшение скорости загрузки страницы на 20%
