@@ -11,12 +11,23 @@
 ***
 
 ## Socials:
-- ![Gmail](https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white) [risskon111@gmail.com](mailto:risskon111@gmail.com)
-- ![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white) [@dsedulya](https://t.me/dsedulya)
-- ![VK](https://img.shields.io/badge/VK-0077FF?logo=vk&logoColor=white) [vk.com/dsedulya](https://vk.com/dsedulya)
+
+<table>
+  <tr>
+    <td><img src="https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white" alt="Gmail" /></td>
+    <td><a href="mailto:risskon111@gmail.com">risskon111@gmail.com</a></td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white" alt="Telegram" /></td>
+    <td><a href="https://t.me/dsedulya">@dsedulya</a></td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/VK-0077FF?logo=vk&logoColor=white" alt="VK" /></td>
+    <td><a href="https://vk.com/dsedulya">vk.com/dsedulya</a></td>
+  </tr>
+</table>
 
 ***
-
 
 ## Tech Stack:
 
