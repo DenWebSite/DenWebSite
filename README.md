@@ -11,7 +11,7 @@
 ***
 
 ## Socials:
-<div style="display: flex; align-items: center; gap: 8px;">
+<div style="display: flex; align-items: start; gap: 80px;">
   <img src="https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white" alt="Gmail" />
   <a href="mailto:risskon111@gmail.com">risskon111@gmail.com</a>
 </div>
