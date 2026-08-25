@@ -78,11 +78,17 @@
 
 ### 3. Stimul-RK - stimul-rk.ru
 
+Сайт визитка для крымского разработчика hardware с демонстрацией его проектов, опыта работа и услуг. Каждому проекту посвящена отдельная страница с галереей и подробным описанием, тоже самое для каждой услуги. Клиент может отправить заявку для обратной связи через специальную форму.
+
 #### Techologies
 
 ![Vue.js](https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 
-
+#### Key Achievements:
+* Полный цикл разработки фронтенда
+* Опыт работы с Vue-Router и Swiper
+* Контроль версий с помощью GitLab
+* Уменьшение скорости загрузки страницы на 20%
 ***
 
 
