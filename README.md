@@ -11,9 +11,9 @@
 ***
 
 ## Socials:
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white)](mailto:risskon111@gmail.com)
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white)](https://t.me/dsedulya)
-[![VK](https://img.shields.io/badge/VK-0077FF?logo=vk&logoColor=white)](https://vk.com/dsedulya)
+- ![Gmail](https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white) [risskon111@gmail.com](mailto:risskon111@gmail.com)
+- ![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white) [@dsedulya](https://t.me/dsedulya)
+- ![VK](https://img.shields.io/badge/VK-0077FF?logo=vk&logoColor=white) [vk.com/dsedulya](https://vk.com/dsedulya)
 
 ***
 
