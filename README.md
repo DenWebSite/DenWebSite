@@ -73,8 +73,8 @@
 
 #### Key Achievements:
 * Очередной опыт в работе с Nuxt 4
-* SSR -> качественное SEO
-* TravelLine
+* SEO настройка, настройка кэширования, Server-Side-Rendering
+* Подключение модуля TravelLine
 * Адаптив + кроссбраузерность 
 
 ***
