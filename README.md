@@ -95,7 +95,7 @@
 * Уменьшение скорости загрузки страницы на 20%
 ***
 
-### 3. Movie Watchlist API https://github.com/DenWebSite/Movie-Watchlist-API
+### 3. Movie Watchlist API
 #### Link: https://github.com/DenWebSite/Movie-Watchlist-API
 
 REST API для управления списком просмотра фильмов. Пользователи могут регистрироваться, добавлять фильмы в личный список просмотра с возможностью отслеживать статус, ставить оценки и оставлять заметки
