@@ -19,7 +19,7 @@
   </tr>
   <tr>
     <td><img src="https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white" alt="Telegram" /></td>
-    <td><a href="https://t.me/dsedulya">@dsedulya</a></td>
+    <td><a href="https://t.me/dsedulya">https://t.me/dsedulya</a></td>
   </tr>
   <tr>
     <td><img src="https://img.shields.io/badge/VK-0077FF?logo=vk&logoColor=white" alt="VK" /></td>
