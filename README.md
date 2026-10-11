@@ -3,7 +3,7 @@
 ## Обо мне
 Студент 4 курса КФУ им. В.И.Вернадского на направлении "Программная инженерия". 
 
-Сфокусирован на Frontend разработке на **Vue3** + **Nuxt4**. Сейчас начинаю разбираться в **React**, а ещё знаком с разработкой на **Node.js** + **Express.js**.
+Сфокусирован на Frontend разработке на **Vue3** + **Nuxt4**. Пишу Backend на PHP, а ещё знаком с разработкой на **Node.js** + **Express.js**.
 
 Сейчас являюсь Frontend разработчиком в студенческой команде "Хамелеон", которая посвятила себя созданию веб-сайтов разных направлений.
 
@@ -32,7 +32,8 @@
 ## Tech Stack:
 
 #### Languages
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+
 #### Frameworks
 ![Vue.js](https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) ![Nuxt JS](https://img.shields.io/badge/Nuxt-002E3B?style=for-the-badge&logo=nuxt.js&logoColor=#00DC82) 
 
